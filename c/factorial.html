@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>taller</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="factorial.js">
+</head>
+
+<body>
+    <div class="contenedor">
+        <section>
+            <h1>Cual es el número factorial</h1>
+            <div class="card">
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label>Ingresemos un numero</label>
+                            <input type="text" class="form-control" placeholder="Ingrese número" id="numero">
+                            <button type="button">calcular</button>
+                            <div class="alert alert-secondary" onclick="factorial()" id="resultado"></div>
+                        </div>
+                    </form>
+                </div>
+        </section>
+    </div>
+</body>
+</html>

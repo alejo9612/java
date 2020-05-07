@@ -1,0 +1,59 @@
+:root{
+    --Primario: #f76543;
+    --Secundario: #c55c45;
+    --Respuesta: #f4f808;
+}
+html {
+  box-sizing: border-box;
+ font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.contenedor form{
+   font-size: 2rem;
+   text-align: end;
+}
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3rem;
+    color: #627edb;
+}
+.card{
+    width: 120rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2rem 0 2rem 0;
+    margin:3rem 0 0 30rem;
+}
+/**card**/
+.card-body{
+    margin-bottom: 1rem;
+}
+.card input{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.card button{
+    padding: 1rem 2rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: var(--Primario);
+    color: white;
+    border: none;
+}
+.card button:hover{
+    background-color: var(--Secundario);
+    color: var(--Respuesta);
+}
+.form-control{
+    margin:0 0 2rem 0;
+}
+/**resultado**/
+.alert{
+    margin: 2rem 0 0 0;
+    padding: 2rem;
+    color: var(--Respuesta)
+}
